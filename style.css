@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    padding: 50px;
+}
+
+img{
+    width:200px;
+    height: 200px;
+    margin: 20px;
+    border: 2px black solid;
+}
+
+#player img{
+    cursor: pointer;
+}
+
+#player img:hover{
+    border: 4px red solid;
+}
+
+.container{
+    display:flex;
+    justify-content: space-around;
+}
+
+h3{
+    text-align: center;
+    padding:40px;
+}
+
+#container-reset{
+    display: flex;
+    justify-content: center;
+
+}
+#reset{
+    display:none;
+    border: 3px black solid;
+    text-align: center;
+    width:100px;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    cursor: pointer;
+}
+#reset:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    background-color: #666;
+}
