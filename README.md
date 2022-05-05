@@ -1,4 +1,6 @@
 # odin-rock-paper-scissors
+Simple game based on html,css, js
+https://falcon102582.github.io/odin-rock-paper-scissors/
 
 1. Player choices
 2. Computer choices
